@@ -1,0 +1,10 @@
+streamlit
+torch
+torchvision
+numpy
+opencv-python
+transformers
+sentence-transformers
+requests
+pandas
+openai
