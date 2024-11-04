@@ -1,9 +1,9 @@
 streamlit
-torch==1.12.1+cpu
-torchvision==0.13.1+cpu
 numpy
 openai
 transformers
 sentence-transformers
 requests
 pandas
+https://download.pytorch.org/whl/cpu/torch-1.12.1%2Bcpu-cp38-cp38-linux_x86_64.
+https://download.pytorch.org/whl/cpu/torchvision-0.13.1%2Bcpu-cp38-cp38-linux_x86_64.whl
