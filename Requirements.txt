@@ -7,4 +7,3 @@ transformers
 sentence-transformers
 requests
 pandas
-openai
