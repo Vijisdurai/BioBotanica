@@ -2,7 +2,7 @@ streamlit
 torch
 torchvision
 numpy
-opencv-python
+openai
 transformers
 sentence-transformers
 requests
