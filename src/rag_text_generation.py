@@ -1,8 +1,8 @@
 import openai
-import os
+import streamlit as st
 
 # Load OpenAI API key securely from an environment variable
-openai.api_key = os.getenv("OPENAI_API_KEY")
+openai.api_key = st.secrets["OPENAI_API_KEY"]
 
 def generate_medicinal_information(plant_name):
     """
