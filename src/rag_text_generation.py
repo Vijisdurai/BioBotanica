@@ -2,7 +2,7 @@ import openai
 import os
 
 # Load OpenAI API key securely from an environment variable
-openai.api_key = "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"
+openai.api_key = os.getenv('MY_API')
 
 def generate_medicinal_information(plant_name):
     """
