@@ -1,6 +1,6 @@
 streamlit
 numpy
-openai
+openai==0.28.0
 transformers
 sentence-transformers
 requests
