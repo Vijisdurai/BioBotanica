@@ -10,7 +10,7 @@ device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
 
 # Define the path to the saved model
-MODEL_PATH = "BioBotanica/models/resnet50.pth"
+MODEL_PATH = "models/resnet50.pth"
 
 
 # Class names based on training dataset order (update if needed)
