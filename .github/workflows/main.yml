@@ -1,0 +1,22 @@
+name: My GitHub Action Workflow
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  example-job:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Set environment variable
+        run: |
+          echo "MY_API_KEY=${{ secrets.MY_API }}" >> $GITHUB_ENV
+      
+      - name: Use environment variable
+        run: |
+          echo "The API Key is $MY_API_KEY"
